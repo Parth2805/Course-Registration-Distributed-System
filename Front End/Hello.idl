@@ -1,0 +1,16 @@
+module HelloApll{
+	interface Hello{
+	string sayhello();
+	string enrolcourse(in string studentid, in string courseid, in string sem);
+	string classSchedule(in string studentid);
+	string removeCourse(in string studentid,in string courseid,in string sem);
+	string swapClasses(in string studentid,in string courseid,in string sem,in string newcourseid);
+    
+    string addCourse(in string advisorid,in string courseid,in string sem,in long capacity);
+    
+    string removeCourseA(in string advisorid,in string courseID,in string semester);
+    
+    string listCourseAvailability (in string advisorid,in string semester);
+};
+
+};
